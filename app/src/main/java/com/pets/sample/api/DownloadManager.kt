@@ -16,7 +16,7 @@ object DownloadManager {
     private val BASE_CACHE__DIR: String
 
     init {
-        BASE_CACHE__DIR = "${Environment.getExternalStorageDirectory()}/Android/data/com/pets/sample/pets/"
+        BASE_CACHE__DIR = "${Environment.getExternalStorageDirectory()}/Android/data/com.pets.sample/pets/"
         println("Pets dirPath = $BASE_CACHE__DIR")
     }
 
